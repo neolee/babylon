@@ -1,7 +1,7 @@
 curl http://localhost:11434/v1/chat/completions \
     -H "Content-Type: application/json" \
     -d '{
-        "model": "llama3.2",
+        "model": "llama3.2:1b",
         "messages": [
             {
                 "role": "system",
@@ -9,7 +9,7 @@ curl http://localhost:11434/v1/chat/completions \
             },
             {
                 "role": "user",
-                "content": "Introduce yourself"
+                "content": "Hello!"
             }
         ]
     }'
