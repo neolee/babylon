@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 # init client point to the local server, api_key is irrelevant
-client = OpenAI(base_url="http://localhost:1234/v1", api_key="ollama")
+client = OpenAI(base_url="http://localhost:11434/v1", api_key="ollama")
 
 user_name = "Neo"
 agent_name = "Garfield"
