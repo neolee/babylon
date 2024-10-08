@@ -1,0 +1,3 @@
+pkg install -y rust binutils
+
+CARGO_BUILD_TARGET="$(rustc -Vv | grep "host" | awk '{print $2}')" pip install maturin
